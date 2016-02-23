@@ -1,1 +1,1 @@
-# TuringMachineSimulator
+# Turing Machine Simulator in Java

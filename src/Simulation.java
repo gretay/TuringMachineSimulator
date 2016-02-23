@@ -116,17 +116,16 @@ public class Simulation {
 				break;
 			case 'r': {
 				run();
-				break;
+				return;
 			}
 			case 'q':
+				System.out.println("Quit.");
 				return;
 			default:
 				System.out.println("Unknown command.");
 			}
 		}
-		reader.close();
-		System.out.println("Halting....");
-		System.out.println(currentConfiguration);
+		System.out.println("Halt.");
 	}	
 	
 	boolean isAccepting(){

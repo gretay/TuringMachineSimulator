@@ -58,6 +58,7 @@ public class TuringMachine {
 	public String toString() {
 		String sep = System.lineSeparator();
 		StringBuffer buf = new StringBuffer();
+		buf.append(sep);
 		buf.append("Input alphabet:");
 		buf.append(sep);
 		for (Symbol symbol : sigma) {
